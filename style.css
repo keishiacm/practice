@@ -12,7 +12,8 @@ header {
 main {
   width: 960px;
   margin: 50px auto;
-  display: flex;
+  display: flex; /* Flexboxの利用 */
+  justify-content: center; /* 子要素の横並び・中央寄せ */
 }
 
 .step-box {
